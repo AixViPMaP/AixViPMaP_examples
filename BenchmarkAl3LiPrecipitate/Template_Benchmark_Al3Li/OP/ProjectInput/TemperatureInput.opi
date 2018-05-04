@@ -1,0 +1,14 @@
+Temperature input
+
+$T0      Initial System Temperature          : 473.15
+
+$R0X    X coordinate of the reference point : 0
+$R0Y    Y coordinate of the reference point : 0
+$R0Z    Z coordinate of the reference point : 0
+
+$DT_DRX X component of the temp. gradient   : 0
+$DT_DRY Y component of the temp. gradient   : 0
+$DT_DRZ Z component of the temp. gradient   : 0
+
+$DT_Dt  Cooling(-) or heating(+) rate       : 0.0
+

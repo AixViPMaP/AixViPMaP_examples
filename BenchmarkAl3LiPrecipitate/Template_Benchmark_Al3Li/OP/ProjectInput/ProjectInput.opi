@@ -1,0 +1,30 @@
+Standard Open Phase Input File
+!!!All values in MKS (or properly scaled) units please!!!
+
+$SimTtl         Simulation Title                        : Al3Li in Al-Li alloy
+$nSteps         Number of Time Steps                    : 15000
+$FTime          Output Distance to Disk(in tSteps)      : 5000
+$STime          Output Distance to Screen(in tSteps)    : 500
+$LUnits         Units of length                         : m
+$TUnits         Units of time                           : s
+$MUnits         Units of mass                           : kg
+$EUnits         Energy units                            : J
+$Nx             System Size in X Direction              : 32
+$Ny             System Size in Y Direction              : 32
+$Nz             System Size in Z Direction              : 32
+$Nphses         Number of Phases per Grain              : 2
+$Ncomps         Number of chemical components           : 1
+$Nsubs          Number of sublattices                   : 1
+$dt             Initial Time Step                       : 1.0
+$IWidth         Interface Width (in grid points)        : 5
+$IEnrgy         Interface Energy                        : 0.14
+$IMobty         Interface Mobility                      : 3.0e-18
+$Rho            Mass Density                            : 6720.0
+$dx             Grid Spacing                            : 3e-9
+$nOMP           Number of OpenMP Threads                : 1
+$Restrt         Restart switch (Yes/No)                 : No
+$tStart         Restart at time step                    : 250000
+$tRstrt         Restart output every (tSteps)           : 10000
+$PhiIdx         Phase index for intitialization         : 1
+$Radius         Grain radius for intitialization        : 8
+$Remesh         Remeshing (Yes/No)                      : No

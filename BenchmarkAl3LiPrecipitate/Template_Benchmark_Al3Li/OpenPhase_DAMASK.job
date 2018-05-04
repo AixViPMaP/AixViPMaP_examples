@@ -1,0 +1,24 @@
+universe = vanilla
+
+DESCRIPTION = Numerical benchmark of phase-Field simulations with elastic strains
+
+# Enable Chirp I/O proxy
++WANTIOPROXY = TRUE
+
+executable            = cosim.sh
+transfer_executable   = true
+
+should_transfer_files = yes
+transfer_input_files  = OP, usr, DAMASK
+transfer_output_files = OP, DAMASK
+
+
+stream_output = true
+
+output = benchmark-out.txt
+error  = benchmark-err.txt
+log    = benchmark-log.txt
+
+REQUIREMENTS = MACHINE == "aix2.iehk.rwth-aachen.de"
+
+queue

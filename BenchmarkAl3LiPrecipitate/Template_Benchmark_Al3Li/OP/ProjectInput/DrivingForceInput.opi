@@ -1,0 +1,4 @@
+!Driving force settings!
+
+$Averg		    Driving force averaging		: Yes
+$CutOff		    Driving force cutoff		: 2.0

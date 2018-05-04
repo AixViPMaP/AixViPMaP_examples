@@ -1,0 +1,8 @@
+OpenPhase Input File for Orientations
+
+$rotationflag  Consider elastic rotations : No
+$globalconvention   Glob rotation convention   :   ZXZ
+
+$globalQ1           Global Euler Angle 1       :   0.0
+$globalQ2           Global Euler Angle 2       :   0.0
+$globalQ3           Global Euler Angle 3       :   0.0

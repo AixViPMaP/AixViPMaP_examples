@@ -1,0 +1,13 @@
+Standard Open Phase Input File
+!!!All values in MKS (or properly scaled) units please!!!
+
+Boundary Conditions Input Parameters:
+
+$BC0X   X axis beginning boundary condition  : Periodic
+$BCNX   X axis far end boundary condition    : Periodic
+
+$BC0Y   Y axis beginning boundary condition  : Periodic
+$BCNY   Y axis far end boundary condition    : Periodic
+
+$BC0Z   Z axis beginning boundary condition  : Periodic
+$BCNZ   Z axis far end boundary condition    : Periodic

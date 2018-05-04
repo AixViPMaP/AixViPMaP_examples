@@ -1,0 +1,48 @@
+
+Mechstate 0: Free boundaries
+MechState 1: Applied Strain
+MechState 2: Applied Stress
+MechState 3: Mixed Stress / Strain
+
+$MechState  Mechanical State: 2
+
+$Comp_0   Name of the component               : Li
+
+$CREF_Li_0      Reference concentration     : 0
+$CREF_Li_1      Reference concentration     : 25
+
+$Phase 0
+$C11 107110000000.0    0.01
+$C12 62860000000.0    0.01
+$C13 62860000000.0    0.01
+$C22 107110000000.0    0.01
+$C23 62860000000.0    0.01
+$C33 107110000000.0    0.01
+$C44 28470000000.0    0.01
+$C55 28470000000.0    0.01
+$C66 28470000000.0    0.01
+
+$E1 0   0
+$E2 0   0
+$E3 0   0
+$E4 0   0
+$E5 0   0
+$E6 0   0
+
+$Phase 1
+$C11 139.8e9    0.0
+$C12 33.7e9     0.0
+$C13 33.7e9     0.0
+$C22 139.8e9    0.0
+$C23 33.7e9     0.0
+$C33 139.8e9    0.0
+$C44 40.7e9     0.0
+$C55 40.7e9     0.0
+$C66 40.7e9     0.0
+
+$E1 -0.00975     0
+$E2 -0.00975     0
+$E3 -0.00975     0
+$E4 0            0
+$E5 0            0
+$E6 0            0
