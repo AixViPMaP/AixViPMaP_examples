@@ -1,0 +1,18 @@
+#
+# HTCondor job description file
+#
+DESCRIPTION            =  DAMASK SpectralMethod example
+UNIVERSE               =  DOCKER
+DOCKER_IMAGE           =  damask-vtk:2.0.1
+EXECUTABLE             =  bash
+ARGUMENTS              =  SpectralMethod.sh
+TRANSFER_EXECUTABLE    =  FALSE
+TRANSFER_INPUT_FILES   =  SpectralMethod.sh
+TRANSFER_OUTPUT_FILES  =  SpectralMethod
+OUTPUT                 =  output.txt
+ERROR                  =  error.txt
+LOG                    =  log.txt
+STREAM_OUTPUT          =  TRUE
+STREAM_ERROR           =  TRUE
+REQUIREMENTS           =  DOCKER_REG_ICMEAIX
+QUEUE
