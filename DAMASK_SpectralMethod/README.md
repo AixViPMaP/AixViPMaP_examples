@@ -1,4 +1,4 @@
-DAMASK_SpectralMethod
+DAMASK SpectralMethod
 =====================
 
 This project implements the **SpectralSolver** example
@@ -9,4 +9,4 @@ in order to illustrate how to use our Docker image
 
 For general information on submitting HTCondor Docker universe jobs
 to the AixViPMaP cluster, please refer our
-[how-to](https://git.rwth-aachen.de/AixViPMaP/AixViPMaP/wikis/how-to).
+[how-to](https://git.rwth-aachen.de/AixViPMaP/AixViPMaP/wikis/).
