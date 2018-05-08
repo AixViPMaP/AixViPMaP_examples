@@ -1,0 +1,20 @@
+#
+# HTCondor Job Description File
+#
+DESCRIPTION            =  Chirp I/O: Transfer files from execute node to scheduler node
+UNIVERSE               =  VANILLA
+EXECUTABLE             =  chirp_put.sh
+# Transfer 5 dummy files from execute node to scheduler node
+ARGUMENTS              =  5
+TRANSFER_EXECUTABLE    =  TRUE
+TRANSFER_INPUT_FILES   =
+TRANSFER_OUTPUT_FILES  =
+OUTPUT                 =  chirp_put.out.txt
+ERROR                  =  chirp_put.err.txt
+LOG                    =  chirp_put.log.txt
+STREAM_OUTPUT          =  TRUE
+STREAM_ERROR           =  TRUE
+REQUIREMENTS           =
+# Enable Chirp I/O proxy
++WANTIOPROXY           =  TRUE
+QUEUE
